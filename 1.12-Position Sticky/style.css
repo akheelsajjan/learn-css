@@ -1,0 +1,21 @@
+.container{
+    height: 400vh;
+}
+.list-header{
+    padding: 10px;
+    background: rgb(161, 149, 149);
+    position: relative;
+}
+
+.list-content{
+    margin-bottom:50px ;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+@supports (position: sticky) {
+    .list-header {
+      position: sticky;
+      top: 0;
+    }
+  }

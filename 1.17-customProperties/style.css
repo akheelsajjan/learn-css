@@ -1,0 +1,46 @@
+:root{
+    /* defining the variables */
+    --div-background-color: red;
+    --text-color: black;
+    --div-padding: 10px;
+    --div-margin: 10px
+}
+
+/* using the varriables to set the values */
+.child{
+    background-color: var(--div-background-color);
+    color: var(--text-color);
+}
+
+.one{
+    padding: var(--div-padding);
+}
+
+.one-one{
+    --div-background-color: blue;
+}
+
+body{
+    /* Setting optional background color */
+    background-color: var(--background-color, pink);
+}
+
+.button{
+    padding: 10px;
+}
+
+
+.main{
+    display: grid;
+    border: solid black 1px;
+    grid-template-columns:1fr 2fr;
+}
+.item{
+    padding: 10px;
+    font-size: 30px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

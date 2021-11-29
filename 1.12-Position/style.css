@@ -1,0 +1,35 @@
+/*static is default position */
+.parent{
+    background: rgb(57, 97, 185);
+    padding: 20px;
+    color: white;
+
+}
+
+.child-one{
+    background: rgb(128, 233, 114);
+    padding: 10px;
+    
+    /* position: relative;
+    left: 10px; moves to the left from its orignal position */
+    
+    /* position: absolute;
+    bottom: 10px;
+    left: 10vh;
+    width: 100% moves bottom and left wrt to relative paretn */
+    /* If there is no mention of relative position in parent then it will refert its parent and so on to window page itself*/
+
+    /* position: sticky;
+    top: 0;
+    width: 100% */
+}
+
+.child-two{
+    background: rgb(218, 102, 102);
+    padding: 10px;
+}
+
+.child-three{
+    background: rgb(233, 114, 197);
+    padding: 10px;
+}

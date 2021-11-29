@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex</title>
+</head>
+
+<body>
+    <h2 id="heading">Flex </h2>
+    <div class="flexbox-container">
+        <div class="flexbox-item flexboxItem-1"></div>
+        <div class="flexbox-item flexboxItem-2"></div>
+        <div class="flexbox-item flexboxItem-3"></div>
+        <div class="flexbox-item flexboxItem-4"></div>
+    </div>
+</body>
+
+<div>
+    <ul>
+        <li> Use Flex to lay a collection of items out in one direction or another. </li>
+        <li>lets you control how the elements are arranged in a single direction</li>
+        <li>Grid is made for two-dimensional layout while Flexbox is for one</li>
+        <hr>
+        <h2>Flex properties</h2>
+        <li class="li">
+            <div class="fleximages">
+                <div class="imageItem">
+                    <h3>display flex</h3>
+                    <img class="" src="./displayflex.jpg">
+                </div>
+
+            </div>
+        </li>
+        <li class="li">
+            <h3>justify content (aligns Item on x-axis)</h3>
+            <div class="fleximages">
+                <div class="imageItem">
+                    <h4>center</h4>
+                    <img class="" src="./justifycontent.jpg">
+                </div>
+                <div class="imageItem">
+                    <h4>space between</h4>
+                    <img class="" src="./spacebetween.jpg">
+                </div>
+                <div class="imageItem">
+                    <h4>space evenly</h4>
+                    <img class="" src="./spacearound.jpg">
+                </div>
+            </div>
+        </li>
+        <li class="li">
+            <h3>align items (aligns items on Y-axis)</h3>
+            <div class="fleximages">
+                <div class="imageItem">
+                    <h3>center</h3>
+                    <img class="imageHeight" src="./alginCenter.jpg">
+                </div>
+                <div class="imageItem">
+                    <h3>flex end</h3>
+                    <img class="imageHeight" src="./flexend.jpg">
+                </div>
+                <div class="imageItem">
+                    <span> flex-wrap: wrap;</span>
+                    <span> align-items: flex-end;</span><br>
+                    <h4 style="display: inline;">align-content: flex-start;</h4><br><br>
+                    <img class="imageHeight" src="./alignContent.jpg">
+                </div>
+            </div>
+        </li>
+        <li>
+            <b>flex shrink</b> does not shrink the item<br>
+            <b>flex grow</b> Item takes extra space (flex grow: number)
+        </li>
+        <li>
+            align-self
+        </li>
+        <li>
+            order: number (arangemt of flex box)
+        </li>
+    </ul>
+</div>
+
+</html>

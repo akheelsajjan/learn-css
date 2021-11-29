@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.box1{
+    background: rgb(218, 102, 102);
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 20px solid purple;
+    margin: 20px
+}
+
+.box2{
+    background: rgb(218, 102, 102);
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 20px solid purple;
+    margin: 20px;
+    box-sizing: border-box;
+}
